@@ -66,7 +66,6 @@ INFO: Selected: webdemo1.valiyev.com
 Select a site operation
 1) Enable/Disable HTTP/2
 2) Cancel
-Select a site: 1
 INFO: Selected: webdemo1.valiyev.com
 INFO: HTTP2 is already enabled.
 INFO: No action required. Exiting...
@@ -74,7 +73,7 @@ INFO: No action required. Exiting...
 
 ---
 
-Test case 4: Enable HTTP/2 for webdemo1.valiyev.com and reload nginx
+Test case 5: Enable HTTP/2 for webdemo1.valiyev.com and reload nginx
 ```shell
 # ./34-nginx-options.sh
 1) Global change to Nginx
@@ -88,19 +87,16 @@ INFO: Selected: webdemo1.valiyev.com
 Select a site operation
 1) Enable/Disable HTTP/2
 2) Cancel
-Select a site: 1
-INFO: Selected: webdemo1.valiyev.com
+INFO: Selected: Enable/Disable HTTP/2
 Would you like to enable HTTP2 for webdemo1.valiyev.com?
 1) Yes
 2) No
 3) Cancel
-Select a site: 1
 INFO: Enabling HTTP2 for webdemo1.valiyev.com
 Reload Nginx now?
 1) Yes
 2) No
 3) Cancel
-Select a site: 1
 Successfully reloaded nginx
 ```
 
